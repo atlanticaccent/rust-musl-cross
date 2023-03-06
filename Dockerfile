@@ -27,6 +27,10 @@ RUN apt-get update && \
         llvm-dev \
         libclang-dev \
         clang \
+        libarchive-dev \
+        libgtk-3-dev \
+        libwebkit2gtk-4.1-dev \
+        libayatana-appindicator3-dev
         && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
